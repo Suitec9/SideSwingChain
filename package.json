@@ -1,0 +1,26 @@
+{
+  "name": "sideswingchain",
+  "version": "1.0.0",
+  "description": "Proxy deployment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "#Proxy"
+  ],
+  "author": "Suitec9",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/contracts": "^4.8.0",
+    "@unlock-protocol/contracts": "^0.0.22",
+    "hardhat": "^2.18.0",
+    "install": "^0.13.0",
+    "npm": "^10.2.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts-upgradeable": "^4.9.3",
+    "dotenv": "^16.3.1"
+  }
+}
