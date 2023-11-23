@@ -22,8 +22,8 @@ async function main() {
   console.log(Factory, "where is the money??");
  
   // Set higher default limit
-  const provider = new ethers.providers.JsonRpcProvider(); 
-  provider.gasLimit = 120_000_000;
+  //const provider = new ethers.providers.JsonRpcProvider(); 
+  //provider.gasLimit = 120_000_000;
    
   const lockManager = await factory.deploy(initCode, saltHex);
   console.log(lockManager, "hello world")
